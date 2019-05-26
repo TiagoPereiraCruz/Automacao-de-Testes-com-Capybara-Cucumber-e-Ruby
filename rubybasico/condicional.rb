@@ -1,4 +1,4 @@
-puts 'digite um numero 1 ou 2'
+puts "digite um numero 0 ou 1"
 v1 = gets.to_i
 
 # if (v1 == 1)
@@ -17,9 +17,9 @@ v1 = gets.to_i
 
 case v1
 when 0
-    puts 'digitou 0'
+  puts "digitou 0"
 when 1
-    puts 'digitou 1'
+  puts "digitou 1"
 else
-    puts 'opcao invalida'
+  puts "opcao invalida"
 end

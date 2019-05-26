@@ -1,3 +1,3 @@
-puts 'meu nome é: '
+puts "O meu nome é: "
 variavel = gets
 puts "o meu nome é #{variavel}"
