@@ -41,8 +41,8 @@ PLATFORMS
   x64-mingw32
 
 DEPENDENCIES
-  cucumber (= 3.1.2)
-  rspec (= 3.7.0)
+  cucumber
+  rspec
 
 BUNDLED WITH
    2.0.1
