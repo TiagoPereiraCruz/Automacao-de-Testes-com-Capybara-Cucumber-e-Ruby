@@ -9,6 +9,6 @@ Funcionalidade: Trabalhar com contexto
       Quando eu coloco 2 laranjas na bolsa
       Então eu verifico se o total de laranjas na bolsa é 12
 
-    Cenario: Vender laranja
+    Cenario: Retirar uma quantidade de laranajs.
       Quando eu tiro 2 laranjas na bolsa
-      Então eu verifico
+      Então eu verifico se o total de laranjas na bolsa é 8
