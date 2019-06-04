@@ -1,12 +1,15 @@
-#require "capybara/cucumber"
-
-require "capybara"
-require "capybara/dsl"
-require "capybara/rspec/matchers"
+require "capybara/cucumber"
 require "selenium-webdriver"
 
-World(Capybara::DSL)
-World(Capybara::RSpecMatchers)
+# end to end
+
+# require "capybara"
+# require "capybara/dsl"
+# require "capybara/rspec/matchers"
+# require "selenium-webdriver"
+
+# World(Capybara::DSL)
+# World(Capybara::RSpecMatchers)
 
 Capybara.configure do |config|
   config.default_driver = :selenium_chrome
